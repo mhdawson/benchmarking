@@ -12,8 +12,11 @@ The following attributes have been identified so far:
 * startup/stop time
 * memmory footprint at startup
 * memory footprint after load
-* gc behaviour/cpu use under load
 * cpu usage when idle
+* max throughput as measured through max http requests served/s
+* gc cpu use under load
+* gc allocation throughput under load
+* gc max pause times under load
 * install package size
 * size on disk once installed
 
