@@ -12,7 +12,7 @@ Use case                                   |Benchmark with coverage| Notes
 Service oriented architectures (SOA) | |
 Microservice-based applications | |
 Generating/serving dynamic web page content | Acme Air Ops/s <BR>Acme Air Latency |
-SPA applications with bidirectional communication over WebSockets and/or HTTP/2 | |
+Single page applications with bidirectional communication over WebSockets and/or HTTP/2 | |
 Agents and Data Collectors | |
 Small scripts | Require New Ops<BR> Require Cached Ops | Needs more attributes tested
 startup/stop time | Start + stop Time |
