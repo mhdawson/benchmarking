@@ -29,10 +29,10 @@
 * Kyle 
   * just starting to get up to speed
 * Taylor
-  * just sitting in to find out what we.re talking about
+  * just sitting in to find out what we are talking about
 * Jiapeng
   * first time joining, UNB student, ramping up research on Node.js scalability.
-* Anil/Uttam i
+* Anil/Uttam
   * Working on DC-EIS, looking to see how it incorporates
     with communities nightly testing.
 
@@ -60,8 +60,8 @@ may be invited to continue attending TSC meetings as an observer.
   * No longer really applicable, ignition is already coming in.  
 
 ### Creating new jobs
-* some discussion on how to create new benchmark jobs
-* Michael.s been doing some work to enable the broader team to be able to manage
+* Some discussion on how to create new benchmark jobs
+* Michael's been doing some work to enable the broader team to be able to manage
   jenkins jobs. Michael will setup meeting to kick this off.
 
 ### Node summit CFP
@@ -69,9 +69,9 @@ may be invited to continue attending TSC meetings as an observer.
 * Anil volunteered to setup a meeting with the interested parties to flesh that out.
 
 ### Questions on acme air numbers reported
-* Anil questions about acme air footprint, should we add in profile of memory
-  usage as opposed to before/after.  Geometric mean ?  Kunal took action to
-  submit PR to capture add an additional metric.
+* Kunal questions about acme air footprint, should we add in profile of memory
+  usage as opposed to before/after.  Geometric mean ?  Kunal to take action to
+  submit PR to capture or add additional metric.
 
 ### EIS benchmark
 * How to get this in.  Uttam is going to submit PR with info/scripts.
