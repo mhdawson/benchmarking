@@ -27,7 +27,7 @@
 * Kunal Pathak
   * Worked on proof of concept for capturing memory trend
   * Tried jenkins CI job for node-chakracore. Ran into Clang issue. Need help.
-Gareth Ellis
+* Gareth Ellis
   * Unfortunately not had very much time to work on Node recently
 
 ### Actions from last meeting
