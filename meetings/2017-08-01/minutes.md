@@ -20,7 +20,7 @@
 * Michael Dawson 
   * Benchmarking panel at Node Summit and prep
   * Quick look at DC-EIS PR 
- * Gareth Ellis
+* Gareth Ellis
   * Looked into helping with the acmeair noise issue on chakra, but
     was not able to get an environment where I could get it running.
     Could be useful to try on the benchmarking machine, both to see if
