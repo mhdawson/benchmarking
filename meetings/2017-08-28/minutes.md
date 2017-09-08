@@ -15,7 +15,7 @@
 * Kunal Pathak (@kunalspathak)
 * Gareth Ellis (@gareth-ellis)
 * Uttam Pawar (@uttampawar)
-* Benedikt Meurer
+* Benedikt Meurer (@bmeurer)
 
 ## Agenda items
 ### Stand up
@@ -60,7 +60,8 @@
 * Meeting at NodeConf EU '17 to discuss Node.js performance [#124](https://github.com/nodejs/benchmarking/issues/124)
   * Benedikt outlined some work they have underway to pull together benchmarks that cover
      webpack, and other commonly used tools.
-  * He will open an issue to doc what they are planning to do
+  * He will open an [issue](https://github.com/nodejs/benchmarking/issues/138)
+    to doc what they are planning to do
 
 ### General
 
