@@ -28,9 +28,9 @@
   * Helped a bit on running DC-EIS dry run
   * Not much other wise
 * Gareth Ellis (@gareth-ellis)
-* Not too much - would be good to get more feedback from the micro benchmark job, 
-  previous issue with running appears to be the wrapper which was not able to get a reliable set
-  of numbers, so gave up. Need to have perhaps a better way of dealing with those situations.
+  * Not too much - would be good to get more feedback from the micro benchmark job, 
+    previous issue with running appears to be the wrapper which was not able to get a reliable set
+    of numbers, so gave up. Need to have perhaps a better way of dealing with those situations.
 * Uttam Pawar (@uttampawar)
   * working on fixing up script for DC-EIS
 
