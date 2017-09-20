@@ -36,14 +36,14 @@
   
 * Uttam Pawar (@uttampawar)
   * Integration DC-EIS of into the benchmarking environment
-  * Seems to be running ok, working on the templates the charts
+  * Seems to be running ok, working on the templates of the charts
   * Ramping up on the ansible infrastructure and will then work on the
     updates for DC-EIS
 
 * Anil 
 
 * Benedict 
-  * working on issue 138, uploaded version 1 today, missing some parts that he wanted
+  * working on issue #138, uploaded version 1 today, missing some parts that he wanted
 
 ## Actions from last meeting
 
