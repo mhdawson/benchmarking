@@ -34,7 +34,7 @@
   * Completed on community, little variance seen, so we should be ok with the 1 run as is done
     Today - Done
 * Kunal to create PR to add mean (or something else) to Acme air runs.  
-  * Kunal will open an issue in the repo to track, and we.ll remove from this list.
+  * Kunal will open an issue in the repo to track, and we will remove from this list.
 * Michael to suggest updated wording for participation guidelines
   * Still need to do this, roll over.
 
@@ -57,10 +57,8 @@
     other people can join if they want.
   * https://github.com/nodejs/benchmarking/issues/131
 
-* we looked through and discussed/reviewed some of the other more recent active issues as
+* We looked through and discussed/reviewed some of the other more recent active issues as
   well.
-
-### General
 
 ## Next meeting
 
