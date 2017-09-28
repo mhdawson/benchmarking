@@ -12,7 +12,7 @@ for SERVER_PID in $PIDS
 do
 				FOOTPRINT=`ps -p ${SERVER_PID} -o rss,vsz,comm,pid | tail -n 1 | awk '{ print $1 }'`
 				HPTOTAL=`cat /proc/meminfo | grep ^HugePages | sed 's/HugePages.*: *//g' | head -n 1`
-				HPFREE=` cat /proc/meminfo | grep ^HugePages | sed 's/HugePages.*: *//g' | head -n 2 | tail -n 1`
+				HPFREE=` cat /proc/meminfo | grep ^HugePages | sed 's/HugePages.*: *//g' | head -n 2 | tail -n 1`	
 				HPRESVD=` cat /proc/meminfo | grep ^HugePages | sed 's/HugePages.*: *//g' | head -n 3 | tail -n 1`
 				let HPINUSE=$HPTOTAL-$HPFREE-$HPPREINUSE
 				echo "HPs in use by node: ${HPINUSE}">>$FP_LOG
