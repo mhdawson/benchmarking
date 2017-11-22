@@ -45,6 +45,9 @@
     that would be useful.
   * Sathvik asked about NodeConfEU/performance.  Michael reported that nothing
     noteworthy on the perf/benchmarking side was discussed.
+  * bmeurer: @psmarshall has started to review the Node core benchmarks (investigation doc).
+  * bmeurer: @tebbi has added the web tooling benchmark to the core benchmark suite.
+    Will follow up on the suggestions by @mhdawson.
 
 ## Q&A, Other
 
