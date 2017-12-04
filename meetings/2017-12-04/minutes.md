@@ -2,7 +2,7 @@
 
 ## Links
 
-* **Recording**:  
+* **Recording**: http://youtu.be/aTBOc2LH-cg
 * **GitHub Issue**: https://github.com/nodejs/benchmarking/issues/176
 * **Minutes Google Doc**: https://docs.google.com/document/d/1UKBn_JAHrVsC4uTnAgtoTo0GDY4f2TUbGny5PXwogXY
 
