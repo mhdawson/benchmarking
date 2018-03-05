@@ -10,8 +10,8 @@
 
 * Michael Dawson @mhdawson
 * Uttam Pawar @uttampawar
-* John-David Dalton - @jdalton
-* Benedict Meurer - @bmeurer
+* John-David Dalton @jdalton
+* Benedict Meurer @bmeurer
 
  
 ## Agenda
