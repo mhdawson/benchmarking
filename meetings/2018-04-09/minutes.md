@@ -2,7 +2,7 @@
 
 ## Links
 
-* **Recording**:  
+* **Recording**: https://www.youtube.com/watch?v=Lpkp-tk2mlM 
 * **GitHub Issue**: https://github.com/nodejs/benchmarking/issues/213
 
 ## Present
