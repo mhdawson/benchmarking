@@ -11,7 +11,7 @@
 * Michael Dawson @mhdawson
 * Uttam Pawar @uttampawar
 * John-David Dalton @jdalton
-* Benedict Meurer @bmeurer
+* Benedikt Meurer @bmeurer
 
  
 ## Agenda
@@ -26,7 +26,7 @@
   * web  tooling benchmark is focussed on generic JavaScript, so does not cover aspects that
     are Node.js or environment specific.
   * Michael -> do we just need a new benchmark ?
-  * Benedict -> Yes but not JavaScript tooling, but more something like Node tooling
+  * Benedikt -> Yes but not JavaScript tooling, but more something like Node tooling
   * John -> some things hijack things in Node, so it will need to run a number of node processes
   * John will submit a pull request for benchmark
 * Footprint increase - acmeair after load last 2 weeks [#203](https://github.com/nodejs/benchmarking/issues/203)
