@@ -28,8 +28,9 @@
   * Discussed, @uttampawar will bisect to find commit that caused regression
 * Add Ghost.js workload to the benchmarking [#159](https://github.com/nodejs/benchmarking/issues/159)
    * Next on @uttampawar’s list
-
-
+* Quick update on the Promise Performance side from Benedikt: As mentioned earlier, I'm planning to setup the
+  promise-performance-tests that we use in V8 internally now to also run on the Node infrastructure
+  They even cover async generators now, which are going to be in Node 10.
 
 ## Q&A, Other
 
