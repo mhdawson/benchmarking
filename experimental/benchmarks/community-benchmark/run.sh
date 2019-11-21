@@ -59,14 +59,7 @@ let getMACHINE_THREADS=getMACHINE_THREADS+1 #getting threads this way is 0 based
 optional MACHINE_THREADS $getMACHINE_THREADS
 rm -rf node
 git clone http://github.com/nodejs/node.git
-
-
 cd node
-
-# select the appropriate compiler
-curl -sLO https://raw.githubusercontent.com/nodejs/build/master/jenkins/scripts/select-compiler.sh
-. ./select-compiler.sh
-
 case $USE_CASE in
 1)
 	git checkout $BRANCH
@@ -77,6 +70,9 @@ case $USE_CASE in
 esac
 
 # build master
+# select the appropriate compiler
+curl -sLO https://raw.githubusercontent.com/nodejs/build/master/jenkins/scripts/select-compiler.sh
+. ./select-compiler.sh
 ./configure  > ../node-master-build.log
 make -j${MACHINE_THREADS}  >> ../node-master-build.log
 mv out/Release/node ./node-master
@@ -90,6 +86,8 @@ case $USE_CASE in
 	git checkout $TARGET
 	;;
 esac
+# select the appropriate compiler
+. ./select-compiler.sh
 ./configure > ../node-pr-build.log
 make -j${MACHINE_THREADS} >> ../node-pr-build.log
 mv out/Release/node ./node-pr
