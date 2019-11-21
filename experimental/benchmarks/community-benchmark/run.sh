@@ -59,7 +59,14 @@ let getMACHINE_THREADS=getMACHINE_THREADS+1 #getting threads this way is 0 based
 optional MACHINE_THREADS $getMACHINE_THREADS
 rm -rf node
 git clone http://github.com/nodejs/node.git
+
+
 cd node
+
+# select the appropriate compiler
+curl -sLO https://raw.githubusercontent.com/nodejs/build/master/jenkins/scripts/select-compiler.sh
+. ./select-compiler.sh
+
 case $USE_CASE in
 1)
 	git checkout $BRANCH
